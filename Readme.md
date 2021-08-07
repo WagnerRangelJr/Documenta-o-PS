@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.4cb55a5f-6420-4ac7-8e47-c3174d66733d.001.png)
+![](Aspose.Words.4cb55a5f-6420-4ac7-8e47-c3174d66733d.001.png)
 
 **Descrição do MiniMundo**
 
