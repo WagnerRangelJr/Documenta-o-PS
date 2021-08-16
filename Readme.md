@@ -430,10 +430,10 @@ Decidimos uma arquitetura em camadas, visto que cada camada será responsável p
 O principal padrão de projeto escolhido foi o padrão, MVC, (Model-View-Controller). Tal padrão permite a divisão do projeto em camadas bem definidas, as quais são, o Model (responsável gerenciar o modelo de dados), o Controller (interpreta e mapeia as ações do usuário), e a View (seu papel será de receber as instruções do Controller e do Model para exibir os dados ao usuário em uma interface). Logo, tal padrão facilitará a  divisão das atividades entre o grupo.
 
 6. **DIAGRAMA DE CLASSES**
-![](image/Diagrama-de Classes-Corrigido2.png)
+![](image/Diagrama-de-Classes-Corrigido2.png)
 7. **DIAGRAMA DE SEQUENCIA**
 ![](image/DIagrama-de-Sequencia-de-Login-por-Usuario.png)
-![](image/Diagrama de Sequencia-Remover-Usuario.png)
+![](image/Diagrama-de-Sequencia-Remover-Usuario.png)
 ![](image/Diagrama-de-Sequencia-RFN-22.png)
 ![](image/Diagrama-de-Seguencia-RFN-23.png)
 ![](image/Diagrama-de-Sequencia-Marcar-Atendimento.png)
