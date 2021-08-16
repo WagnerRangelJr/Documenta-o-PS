@@ -413,13 +413,14 @@ O usuário terá acesso a plataforma através da tela de login, sendo levado de 
 |Fluxo alternativo (cenário alternativo)|4 - A senha está incorreta4.1 - Mensagem indicando que a senha anterior foi digitadaincorretamente.5 - A senha é igual a anterior.5.1 - Mensagem indicando que a senha não pode ser igual aanterior6 - As senhas não correspondem.6.1 - Mensagem indicando que a senha digitada no passo 5 nãocorresponde com a senha digitada no passo 6.7.1 - Após realizar as alterações, o usuário clica no botão de cancelar.|
 1. **Diagrama casos de uso**
 
-Imagem enviada em anexo.
+![](image/Diagrama-de-Casos-de-Uso.jpeg)
 
 
 5. **ARQUITETURA DO SISTEMA**
 1. **Diagrama de Arquitetura**: Imagem em anexo.
 
-![](image/Aspose.Words.cb938290-9f2c-4a3c-8925-73627d94c0aa.001.png)
+![](image/Diagrama-de-Arquitertura.png)
+
 2. Arquitetura:
 
 Decidimos uma arquitetura em camadas, visto que cada camada será responsável por um serviço e a camada fornece serviços à camada acima dela. Outro ponto é pela facilidade em criar recursos novos em cima do sistema permitindo o desenvolvimento espalhado pelo grupo.
@@ -429,5 +430,10 @@ Decidimos uma arquitetura em camadas, visto que cada camada será responsável p
 O principal padrão de projeto escolhido foi o padrão, MVC, (Model-View-Controller). Tal padrão permite a divisão do projeto em camadas bem definidas, as quais são, o Model (responsável gerenciar o modelo de dados), o Controller (interpreta e mapeia as ações do usuário), e a View (seu papel será de receber as instruções do Controller e do Model para exibir os dados ao usuário em uma interface). Logo, tal padrão facilitará a  divisão das atividades entre o grupo.
 
 6. **DIAGRAMA DE CLASSES**
-
+![](image/Diagrama-de Classes-Corrigido2.png)
 7. **DIAGRAMA DE SEQUENCIA**
+![](image/DIagrama-de-Sequencia-de-Login-por-Usuario.png)
+![](image/Diagrama de Sequencia-Remover-Usuario.png)
+![](image/Diagrama-de-Sequencia-RFN-22.png)
+![](image/Diagrama-de-Seguencia-RFN-23.png)
+![](image/Diagrama-de-Sequencia-Marcar-Atendimento.png)
