@@ -438,3 +438,8 @@ O principal padrão de projeto escolhido foi o padrão, MVC, (Model-View-Control
 ![](image/Diagrama-de-Sequencia-RFN-22.png)
 ![](image/Diagrama-de-Seguencia-RFN-23.png)
 ![](image/Diagrama-de-Sequencia-Marcar-Atendimento.png)
+
+7. **JUSTIFICATIVA DA ESCOLHA DOS PADRÕES DE PROJETO**
+1. **Caso de uso "Criar Agenda"** (por Luis Sergio)
+Descrição do problema:  Cada atendente pode ter apenas uma agenda para realizar seus atendimentos
+Justificativa do padrao adotado: Adotamos o padrao singleton para garantir que uma vez instanciada a classe agenda para determinado atendente ela seja sempre recuperada garantindo a verdade de que o atendente terá apenas uma unica agenda.
