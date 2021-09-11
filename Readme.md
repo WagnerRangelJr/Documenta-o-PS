@@ -1,4 +1,5 @@
-﻿1. **CONCEPÇÃO**
+﻿Terceira Entrega
+1. **CONCEPÇÃO**
 1. **Nome do sistema** 
 Agendando
 2. **Motivação**
@@ -430,13 +431,24 @@ Decidimos uma arquitetura em camadas, visto que cada camada será responsável p
 O principal padrão de projeto escolhido foi o padrão, MVC, (Model-View-Controller). Tal padrão permite a divisão do projeto em camadas bem definidas, as quais são, o Model (responsável gerenciar o modelo de dados), o Controller (interpreta e mapeia as ações do usuário), e a View (seu papel será de receber as instruções do Controller e do Model para exibir os dados ao usuário em uma interface). Logo, tal padrão facilitará a  divisão das atividades entre o grupo.
 
 6. **DIAGRAMA DE CLASSES**
-![](image/Diagrama-de-Classes-Corrigido2.png)
+![](image/Diagrama-de-Classe-terceiraEntrega.png)
 7. **DIAGRAMA DE SEQUENCIA**
 ![](image/DIagrama-de-Sequencia-de-Login-por-Usuario.png)
 ![](image/Diagrama-de-Sequencia-Remover-Usuario.png)
 ![](image/Diagrama-de-Sequencia-RFN-22.png)
 ![](image/Diagrama-de-Seguencia-RFN-23.png)
 ![](image/Diagrama-de-Sequencia-Marcar-Atendimento.png)
+
+7. **JUSTIFICATIVA DA ESCOLHA DOS PADRÕES DE PROJETO**
+1. **Caso de uso "Criar Agenda"** (por Luis Sergio)
+Descrição do problema:  Cada atendente pode ter apenas uma agenda para realizar seus atendimentos
+Justificativa do padrao adotado: Adotamos o padrao singleton para garantir que uma vez instanciada a classe agenda para determinado atendente ela seja sempre recuperada garantindo a verdade de que o atendente terá apenas uma unica agenda.
+
+
+2. **Caso de uso "Enviar E-mail"** (por Wagner Rangel)
+Descrição do problema:  Quando o status do atendimento for alterado é enviado um e-mail para o sistema.
+
+Justificativa do padrao adotado: O padrão Observer sugere que você adicione um mecanismo de assinatura para a classe publicadora para que objetos individuais possam assinar ou desassinar uma corrente de eventos vindo daquela publicadora. Portanto, enquanto a marcação estiver ativa e estiver ocorrendo as alterações o sistema nofiticará as alterações.
 ![](image/Diagrama-de-Sequencia-Cadastrar-Usuario.png)
 ![](image/Diagrama-de-Sequencia-Cancelar-Agendamento.png)
 ![](image/diagramas_de_sequencia_RFN08_Emitir_Protocolo.png)
@@ -446,3 +458,4 @@ O principal padrão de projeto escolhido foi o padrão, MVC, (Model-View-Control
 ![](image/SD-RFN18-Cadastrar-Administrador.png)
 ![](image/SD-RFN20-Cadastrar-Notificacao.png)
 ![](image/.png)
+
