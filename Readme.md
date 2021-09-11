@@ -449,3 +449,13 @@ Justificativa do padrao adotado: Adotamos o padrao singleton para garantir que u
 Descrição do problema:  Quando o status do atendimento for alterado é enviado um e-mail para o sistema.
 
 Justificativa do padrao adotado: O padrão Observer sugere que você adicione um mecanismo de assinatura para a classe publicadora para que objetos individuais possam assinar ou desassinar uma corrente de eventos vindo daquela publicadora. Portanto, enquanto a marcação estiver ativa e estiver ocorrendo as alterações o sistema nofiticará as alterações.
+![](image/Diagrama-de-Sequencia-Cadastrar-Usuario.png)
+![](image/Diagrama-de-Sequencia-Cancelar-Agendamento.png)
+![](image/diagramas_de_sequencia_RFN08_Emitir_Protocolo.png)
+![](image/diagramas-de-sequencia_RFN10_Enviar-E-mail.png)
+![](image/RFN19-Solicitar-exclusao.png)
+![](image/RFN24-Identificar-Atendente.png)
+![](image/SD-RFN18-Cadastrar-Administrador.png)
+![](image/SD-RFN20-Cadastrar-Notificacao.png)
+![](image/.png)
+
