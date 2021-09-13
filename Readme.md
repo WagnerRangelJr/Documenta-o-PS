@@ -450,11 +450,10 @@ O principal padrão de projeto escolhido foi o padrão, MVC, (Model-View-Control
 
 7. **JUSTIFICATIVA DA ESCOLHA DOS PADRÕES DE PROJETO**
 1. **Caso de uso "Criar Agenda"** (por Luis Sergio)
-Descrição do problema:  Cada atendente pode ter apenas uma agenda para realizar seus atendimentos
-Justificativa do padrao adotado: Adotamos o padrao singleton para garantir que uma vez instanciada a classe agenda para determinado atendente ela seja sempre recuperada garantindo a verdade de que o atendente terá apenas uma unica agenda.
+ - Descrição do problema:  Cada atendente pode ter apenas uma agenda para realizar seus atendimentos
+ - Justificativa do padrao adotado: Adotamos o padrao singleton para garantir que uma vez instanciada a classe agenda para determinado atendente ela seja sempre recuperada garantindo a verdade de que o atendente terá apenas uma unica agenda.
 
 
 2. **Caso de uso "Enviar E-mail"** (por Wagner Rangel)
-Descrição do problema:  Quando o status do atendimento for alterado é enviado um e-mail para o sistema.
-
-Justificativa do padrao adotado: O padrão Observer sugere que você adicione um mecanismo de assinatura para a classe publicadora para que objetos individuais possam assinar ou desassinar uma corrente de eventos vindo daquela publicadora. Portanto, enquanto a marcação estiver ativa e estiver ocorrendo as alterações o sistema nofiticará as alterações.
+ - Descrição do problema:  Quando o status do atendimento for alterado é enviado um e-mail para o sistema.
+ - Justificativa do padrao adotado: O padrão Observer sugere que você adicione um mecanismo de assinatura para a classe publicadora para que objetos individuais possam assinar ou desassinar uma corrente de eventos vindo daquela publicadora. Portanto, enquanto a marcação estiver ativa e estiver ocorrendo as alterações o sistema nofiticará as alterações.
